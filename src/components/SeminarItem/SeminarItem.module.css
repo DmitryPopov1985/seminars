@@ -1,0 +1,57 @@
+.seminarItem {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 10px 0;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.seminarItem:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.seminarTitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.seminarDescription {
+    font-size: 1rem;
+    margin-bottom: 12px;
+    color: #555;
+}
+
+.seminarDateTime {
+    font-size: 0.9rem;
+    color: #999;
+    margin-bottom: 12px;
+}
+
+.seminarImage {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.buttonContainer {
+    display: flex;
+    gap: 15px;
+}
+
+.buttonContainer button {
+    background-color: #3498db; 
+    color: white;                
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.buttonContainer button:hover {
+    background-color: #2980b9;  
+}
